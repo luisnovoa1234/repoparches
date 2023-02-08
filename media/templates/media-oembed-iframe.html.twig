@@ -13,5 +13,17 @@
   </head>
   <body style="margin: 0">
     {{ media|raw }}
+
+    <script>
+    
+          let titles = document.querySelector("head");
+          titles.innerHTML = '<title> Video | Casa Propia Colombia </title> <meta name="viewport" content="width=device-width, initial-scale=1.0">';  
+
+          let body = document.querySelector("body");
+          body.style.overflow = "hidden";
+          body.style.height = "100vh";
+         
+    </script>
   </body>
+  
 </html>
